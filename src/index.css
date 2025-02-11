@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  @apply bg-secondary scroll-smooth
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.texthover{
+  @apply hover:text-primary transition duration-700 ease-in-out
+ }
